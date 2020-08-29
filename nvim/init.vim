@@ -15,12 +15,19 @@ map <C-P> :Files<CR>
 " Map <C-Z> to undo
 map <C-Z> :undo<CR>
 
+" Map <C-s> to save
+map <C-s> :w<CR>
+
+" Map <C-A> to Select All
+map <C-A> ggvG$
+
+" Map <C-C> to yank to system clipboard
+map <C-C> "+y
+
 " Enable line numbers
 set number
 
-" Set theme to ci_dark
-syntax on
-set termguicolors
-colorscheme ci_dark
+set autoindent
 
-let g:airline_theme = 'ci_dark'
+set splitright
+set splitbelow
