@@ -2,9 +2,6 @@
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "terminal.integrated.shell.windows": "D:\\Software\\Git\\bin\\bash.exe",
-    "files.associations": {
-        "*.ejs": "html"
-    },
     "css.lint.float": "warning",
     "liveServer.settings.donotShowInfoMsg": true,
     "explorer.confirmDragAndDrop": false,
@@ -54,4 +51,12 @@
     "liveServer.settings.donotVerifyTags": true,
     "svelte.language-server.runtime": "D:\\Software\\nodejs\\node.exe",
     "editor.tabSize": 2,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-w>": false,
+        "<C-v>": false,
+    }
 }
