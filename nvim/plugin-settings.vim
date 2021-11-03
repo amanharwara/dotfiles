@@ -17,3 +17,5 @@ function! s:check_back_space() abort
 
 "Close preview window when completion is done.
 autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
+
+lua require'hop'.setup()
