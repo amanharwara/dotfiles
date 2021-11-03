@@ -14,5 +14,6 @@ Plug 'stephpy/vim-yaml'
 Plug 'rust-lang/rust.vim'
 Plug 'posva/vim-vue'
 Plug 'cakebaker/scss-syntax.vim'
+Plug 'phaazon/hop.nvim'
 
 call plug#end()
