@@ -52,3 +52,6 @@ map <C-W> :tabclose<CR>
 " Map <C-A> to Select All
 map <C-A> ggvG$
 imap <C-A> <Esc>
+
+nnoremap f :HopWord<CR>
+nnoremap <S-f> :HopLine<CR>
