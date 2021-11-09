@@ -55,6 +55,3 @@ imap <C-A> <Esc>
 
 nnoremap f :HopWord<CR>
 nnoremap <S-f> :HopLine<CR>
-
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=grey
-colorscheme rvcs
