@@ -55,6 +55,13 @@ return require('packer').startup{function()
     'windwp/nvim-autopairs',
     config = [[ require('plugins/autopairs') ]]
   }
+  use {
+    'phaazon/hop.nvim',
+    branch = 'v1', -- optional but strongly recommended
+    config = function()
+      require'hop'.setup {}
+    end
+  }
 end, config = {
     -- Move to lua dir so impatient.nvim can cache it
     compile_path = vim.fn.stdpath('config')..'/plugin/packer_compiled.lua'
