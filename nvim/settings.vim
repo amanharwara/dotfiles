@@ -35,7 +35,7 @@ inoremap <C-j> <Esc>:m .+1<CR>==gi
 inoremap <C-k> <Esc>:m .-2<CR>==gi
 
 " Ctrl+P for file selector
-map <C-P> :Files<CR>
+map <C-P> :FZF<CR>
 
 " Map <C-D> to duplicate current line
 map <C-D> yy$p
