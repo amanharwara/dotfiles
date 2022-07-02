@@ -62,6 +62,8 @@ ZSH_THEME="agnoster"
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
+HISTFILE=~/.zhistory
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -101,11 +103,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias c=clear
-alias vsc="codium ."
+alias cp="cp -i"
 alias ga="git add"
 alias gc="git commit"
 alias gp="git push"
 alias htop="btm"
+alias ll="exa -lma --git"
+alias vs="codium ."
+alias vsc="codium ."
 
 export GPG_TTY=$(tty)
 gpgconf --launch gpg-agent
