@@ -1,62 +1,115 @@
 {
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "terminal.integrated.shell.windows": "D:\\Software\\Git\\bin\\bash.exe",
-    "css.lint.float": "warning",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "explorer.confirmDragAndDrop": false,
-    "powershell.powerShellExePath": "C:\\Windows\\SysWow64\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "window.zoomLevel": 0,
-    "autoprefixer.ignoreFiles": [
-        "*.ejs"
-    ],
-    "terminal.integrated.rendererType": "dom",
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "editor.formatOnSave": true,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        "typescript",
-        "typescriptreact",
-    ],
-    "extensions.ignoreRecommendations": false,
-    "editor.cursorStyle": "block",
-    "editor.renameOnType": true,
-    "editor.minimap.enabled": false,
-    "editor.maxTokenizationLineLength": 25000,
-    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
-    "editor.cursorBlinking": "solid",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "[typescriptreact]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "liveServer.settings.donotVerifyTags": true,
-    "svelte.language-server.runtime": "D:\\Software\\nodejs\\node.exe",
-    "editor.tabSize": 2,
-    "vim.cursorStylePerMode.insert": "line",
-    "vim.handleKeys": {
-        "<C-a>": false,
-        "<C-f>": false,
-        "<C-c>": false,
-        "<C-w>": false,
-        "<C-v>": false,
-    }
+  "editor.linkedEditing": true,
+  "editor.maxTokenizationLineLength": 25000,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+  "editor.cursorBlinking": "solid",
+  "editor.fontFamily": "'Geist Mono Medium', 'Fragment Mono', 'SF Mono', monospace",
+  "editor.fontSize": 18,
+  "editor.fontLigatures": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.unicodeHighlight.allowedCharacters": {
+    "–": true
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.largeFileOptimizations": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.lightbulb.enabled": "off",
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**debug": true,
+    "**/package-lock.json": true,
+    "**/.next": true,
+    "**/data": true,
+  },
+  "telemetry.telemetryLevel": "off",
+  "explorer.confirmDragAndDrop": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "eslint.validate": [
+    "astro",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "extensions.ignoreRecommendations": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "monospace",
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "git.confirmSync": false,
+  "terminal.integrated.defaultLocation": "editor",
+  "php.validate.executablePath": "/opt/lampp/bin/php",
+  "eslint.format.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.mode": "none",
+  "sync.gist": "af70969e8747da5f25dd4447f67a9ba3",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "window.confirmBeforeClose": "keyboardOnly",
+  "workbench.enableExperiments": false,
+  "update.showReleaseNotes": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "git.mergeEditor": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "typescriptreact": true,
+    "typescript": true
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "git.useIntegratedAskPass": false,
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+  },
+  "reactSnippets.settings.importReactOnTop": false,
+  "git.ignoreRebaseWarning": true,
+  "gitlens.graph.minimap.enabled": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.preferredDarkColorTheme": "GitHub Dark Default",
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
 }
