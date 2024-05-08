@@ -1,28 +1,20 @@
-api.unmap('<1>');
-api.unmap('<2>');
-api.unmap('<3>');
-api.unmap('<4>');
-api.unmap('<5>');
-api.unmap('<6>');
-api.unmap('<7>');
-api.unmap('<8>');
-api.unmap('<9>');
-api.unmap('<Alt-1>');
-api.unmap('<Alt-2>');
-api.unmap('<Alt-3>');
-api.unmap('<Alt-4>');
-api.unmap('<Alt-5>');
-api.unmap('<Alt-6>');
-api.unmap('<Alt-7>');
-api.unmap('<Alt-8>');
-api.unmap('<Alt-9>');
-api.unmap('<Ctrl-i>');
-api.unmap('<Ctrl-h>');
+// an example to create a new mapping `ctrl-y`
+api.mapkey('<ctrl-y>', 'Show me the money', function() {
+    Front.showPopup('a well-known phrase uttered by characters in the 1996 film Jerry Maguire (Escape to close).');
+});
+
+// an example to replace `T` with `gt`, click `Default mappings` to see how `T` works.
+api.map('gt', 'T');
+
+// an example to remove mapkey `Ctrl-i`
+api.unmap('<ctrl-i>');
 api.unmap('x');
 api.unmap('r');
-api.unmap('.');
-api.unmap('\'');
 api.unmap('m');
+api.unmap('<Ctrl-h>');
+api.unmap('<Ctrl-j>');
+api.unmap('<Ctrl-H>');
+api.unmap('<Ctrl-J>');
 
 // set theme
 settings.theme = `
@@ -62,4 +54,4 @@ settings.theme = `
 #sk_status, #sk_find {
     font-size: 20pt;
 }`;
-// click `Save` button to make above settings to take effect.
+// click `Save` button to make above settings to take effect.</ctrl-i></ctrl-y>
