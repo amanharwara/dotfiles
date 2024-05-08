@@ -22,7 +22,7 @@
       "[ d": "editor::GoToPrevDiagnostic",
       "] d": "editor::GoToDiagnostic",
       "space p": "file_finder::Toggle",
-      "c l": "workspace::ToggleCenteredLayout"
+      "q l": "workspace::ToggleCenteredLayout"
     }
   }
 ]
