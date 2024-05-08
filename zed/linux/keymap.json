@@ -1,0 +1,28 @@
+[
+  {
+    "bindings": {
+      "ctrl-b": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-right": "editor::SelectLargerSyntaxNode",
+      "alt-shift-left": "editor::SelectSmallerSyntaxNode"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "shift-k": "editor::Hover",
+      "g d": "editor::GoToDefinition",
+      "g r": "editor::FindAllReferences",
+      "alt-shift-right": "editor::SelectLargerSyntaxNode",
+      "alt-shift-left": "editor::SelectSmallerSyntaxNode",
+      "[ d": "editor::GoToPrevDiagnostic",
+      "] d": "editor::GoToDiagnostic",
+      "space p": "file_finder::Toggle",
+      "c l": "workspace::ToggleCenteredLayout"
+    }
+  }
+]
