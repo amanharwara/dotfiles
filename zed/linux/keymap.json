@@ -1,7 +1,8 @@
 [
   {
     "bindings": {
-      "ctrl-b": "workspace::ToggleLeftDock"
+      "ctrl-b": "workspace::ToggleLeftDock",
+      "q l": "workspace::ToggleCenteredLayout"
     }
   },
   {
@@ -21,8 +22,7 @@
       "alt-shift-left": "editor::SelectSmallerSyntaxNode",
       "[ d": "editor::GoToPrevDiagnostic",
       "] d": "editor::GoToDiagnostic",
-      "space p": "file_finder::Toggle",
-      "q l": "workspace::ToggleCenteredLayout"
+      "space p": "file_finder::Toggle"
     }
   }
 ]
