@@ -1,0 +1,13 @@
+[
+	{
+		"context": "Editor && vim_mode == normal",
+		"bindings": {
+			"shift-k": "editor::Hover",
+			"g r": "editor::FindAllReferences",
+			"[ d": "editor::GoToPrevDiagnostic",
+			"] d": "editor::GoToDiagnostic",
+			"space p": "file_finder::Toggle",
+			"q l": "workspace::ToggleCenteredLayout"
+		}
+	}
+]
