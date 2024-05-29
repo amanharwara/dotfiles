@@ -2,7 +2,8 @@
   {
     "bindings": {
       "ctrl-b": "workspace::ToggleLeftDock",
-      "q l": "workspace::ToggleCenteredLayout"
+      "q l": "workspace::ToggleCenteredLayout",
+      "ctrl-r": "projects::OpenRecent"
     }
   },
   {
@@ -16,7 +17,6 @@
     "context": "Editor && vim_mode == normal",
     "bindings": {
       "shift-k": "editor::Hover",
-      "g d": "editor::GoToDefinition",
       "g r": "editor::FindAllReferences",
       "alt-shift-right": "editor::SelectLargerSyntaxNode",
       "alt-shift-left": "editor::SelectSmallerSyntaxNode",
