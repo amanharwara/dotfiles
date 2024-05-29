@@ -13,7 +13,6 @@
   "editor.unicodeHighlight.allowedCharacters": {
     "–": true
   },
-  "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.formatOnSave": true,
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.renderCharacters": false,
@@ -22,7 +21,7 @@
   "editor.largeFileOptimizations": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.lightbulb.enabled": "off",
-  "search.useIgnoreFiles": false,
+  "search.useIgnoreFiles": true,
   "search.exclude": {
     "**/node_modules": true,
     "**/dist": true,
@@ -30,6 +29,7 @@
     "**/package-lock.json": true,
     "**/.next": true,
     "**/data": true,
+    "**/android/app/build": true,
   },
   "telemetry.telemetryLevel": "off",
   "explorer.confirmDragAndDrop": false,
@@ -112,4 +112,50 @@
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
+  "vim.useCtrlKeys": false,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "workbench.colorTheme": "Autobiography",
+  "gitlens.graph.layout": "editor",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.newWindowDimensions": "maximized",
+  "git.replaceTagsWhenPull": true,
+  "editor.lineNumbers": "relative",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "K"
+      ],
+      "after": [
+        "g",
+        "h"
+      ]
+    },
+    {
+      "before": [
+        "g",
+        "l"
+      ],
+      "after": [
+        "g",
+        "b"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "g",
+        "l"
+      ],
+      "after": [
+        "g",
+        "b"
+      ]
+    }
+  ]
 }
