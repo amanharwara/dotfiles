@@ -1,0 +1,96 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "css.lint.float": "warning",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "extensions.ignoreRecommendations": false,
+  "editor.linkedEditing": true,
+  "editor.maxTokenizationLineLength": 25000,
+  "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?_",
+  "editor.cursorBlinking": "solid",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 17.5,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.fontFamily": "SF Mono, monospace",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "git.confirmSync": false,
+  "terminal.integrated.defaultLocation": "editor",
+  "php.validate.executablePath": "/opt/lampp/bin/php",
+  "eslint.format.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "–": true
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "update.mode": "manual",
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "workbench.preferredHighContrastColorTheme": "GitHub Dark High Contrast",
+  "workbench.preferredHighContrastLightColorTheme": "GitHub Light High Contrast",
+  "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.wordWrap": "on",
+  "lldb.library": "/Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/LLDB",
+  "lldb.launch.expressions": "native",
+  "svelte.enable-ts-plugin": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "reactSnippets.settings.importReactOnTop": false,
+  "window.confirmBeforeClose": "keyboardOnly",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "u"
+      ],
+      "after": []
+    }
+  ],
+  "git.ignoreRebaseWarning": true,
+  "editor.lineNumbers": "relative",
+  "workbench.preferredLightColorTheme": "GitHub Light Default",
+  "git.replaceTagsWhenPull": true,
+  "workbench.colorTheme": "GitHub Light Default"
+}
