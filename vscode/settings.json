@@ -144,6 +144,16 @@
         "g",
         "b"
       ]
+    },
+    {
+      "before": [
+        "<C-d>"
+      ],
+      "after": [
+        "<C-d>",
+        "z",
+        "z"
+      ]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
