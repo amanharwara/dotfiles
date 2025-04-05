@@ -164,6 +164,12 @@
         "z",
         "z"
       ]
+    },
+    {
+      "before": [
+        "u"
+      ],
+      "after": [],
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
