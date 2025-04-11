@@ -170,6 +170,15 @@
         "u"
       ],
       "after": [],
+    },
+    {
+      "before": [
+        "g",
+        "a"
+      ],
+      "commands": [
+        "editor.action.selectHighlights"
+      ]
     }
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
